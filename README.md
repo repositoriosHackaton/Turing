@@ -1,20 +1,15 @@
-# Turing
-En este espacio se sube el código creado para el grupo 
+# Victor AI Assistant
 
+Victor es un chatbot  diseñado para proporcionar asistencia basada en los datos recolectados por los relojes 
+inteligentes de Samsung. Este proyecto utiliza inteligencia artificial y aprendizaje automático para interpretar 
+y responder a consultas relacionadas con la salud y el bienestar, basándose en la información recolectada por 
+los dispositivos.
 
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
-
-Recuerden que este readme es su puerta de entrada para su proyecto. 
-
-Un ejemplo puede ser: 
-# Nombre del Proyecto
-
-Breve descripción del proyecto.
+![image](https://github.com/repositoriosHackaton/Turing/assets/76980571/6c33f5ed-295a-4c51-961c-83af38780c22)
 
 ## Tabla de contenidos
 
-1. [Nombre](#Nombre)
+1. [Estructura de las carpetas](#Estructura de las carpetas)
 2. [Descripción](#descripción)
 3. [Arquitectura](#Arquitectura)
 4. [Proceso](#Proceso)
@@ -23,11 +18,24 @@ Breve descripción del proyecto.
 7. [Agradecimientos](#Agradecimientos)
 
 
-* Nombre del proyecto
 
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
+# Estructura de las carpetas
+  **venv/:** Este directorio contiene el entorno virtual de Python. Es utilizado para aislar las dependencias del
+  proyecto y asegurarse de que no haya conflictos con otras versiones de paquetes instalados globalmente en el sistema.
 
-* Arquitectura del proyecto + imagen
+  
+  **Data/:** En este directorio se almacenan los datos necesarios para el funcionamiento del chatbot.
+  
+  **Icons/:** Este directorio contiene los iconos utilizados en la interfaz gráfica de usuario (GUI) del chatbot.
+  
+  **API_key.env:** Este archivo de entorno contiene la clave API de OPEN AI. Este archivo debe ser configurado correctamente
+  antes de ejecutar el chatbot.
+  
+  **GUI.py:** Este archivo fuente de Python contiene el código para la interfaz gráfica de usuario del chatbot. Maneja las
+  interacciones del usuario y presenta la información de manera visualmente accesible.
+  
+  **victorAI.py:** Este archivo fuente de Python contiene la lógica principal del chatbot, incluyendo la integración con la API
+  de OPEN AI, el procesamiento de datos y las respuestas del asistente virtual basado en inteligencia artificial.
 
 * Proceso de desarrollo:
 
